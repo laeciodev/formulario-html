@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body style="background-color: rgb(136, 124, 124);">
+    <h1>Formulário</h1>
+    <form>
+        <label for="id_nome">Nome:</label>
+        <input type="text" 
+               id="id_nome" 
+               name="usuario" 
+               placeholder="Digite seu nome">
+        <br>
+        <label for="id_dtnasc">Data de Nascimento:</label>
+        <input type="date" id="id_dtnasc" name="dtnasc">
+        <br>
+        <label>Sexo:</label>
+        <input type="radio" id="id_masc" name="sexo1" value="masc">
+        <label for="id_masc">Masc</label>
+        <input type="radio" id="id_fem" name="sexo2" value="fem">
+        <label for="id_fem">Fem</label>
+        <input type="radio" id="id_pni" name="naoinformar" value="prefironaoinformar">
+        <label for="id_pni">Prefiro não informar</label>
+        <br>
+        <legend>Endereço:</legend>
+        <label for="id_address">Logradouro:</label>
+        <input type="text" id="id_addres" name="address">
+        <br>
+        <label for="id_neighborhood">Bairro:</label>
+        <input type="text" id="id_neighborhood" name="neighborhood">
+        <br>
+        <label for="id_city">Cidade:</label>
+        <input type="text" id="id_city" name="city">
+        <br>
+        <label for="uf">UF:</label>
+        <select name="uf" id="id_uf">
+            <option value="1">DF</option>
+            <option value="2">GO</option>
+            <option value="3">RJ</option>
+            <option value="4">PI</option>
+        </select>
+        <br>
+    <label for="email">Email:</label>
+    <input type="email" id="id_email" name="email">
+    </form>
+    <br>
+<button>Limpar</button>
+ <button>Enviar</button>
+</body>
+</html>
